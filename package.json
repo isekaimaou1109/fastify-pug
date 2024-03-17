@@ -1,6 +1,5 @@
 {
-  "name": "@fastify/pug",
-  "private": false,
+  "name": "@isekaimaouyoki-sama/fastify-pug",
   "version": "1.0.0",
   "type": "module",
   "exports": {
