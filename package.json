@@ -1,0 +1,41 @@
+{
+  "name": "@fastify/pug",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
+  "description": "The minimal package for rendering pug template",
+  "keywords": [
+    "pug",
+    "pugjs",
+    "fastify",
+    "fastify-pug"
+  ],
+  "scripts": {
+    "preinstall": "npx rollup index.js --file index.cjs --format cjs"
+  },
+  "author": {
+    "email": "nhat11092000@gmail.com",
+    "name": "isekaimaou1109",
+    "url": "https://github.com/isekaimaou1109"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isekaimaou1109/fastify-pug.git"
+  },
+  "homepage": "https://github.com/isekaimaou1109/fastify-pug#readme",
+  "bugs": {
+    "url": "https://github.com/isekaimaou1109/fastify-pug/issues",
+    "email": "nhat11092000@gmail.com"
+  },
+  "dependencies": {
+    "fastify-plugin": "^4.5.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "rollup": "^4.13.0"
+  }
+}
