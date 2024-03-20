@@ -4,7 +4,7 @@ This is a small wrapper around [pug](https://pugjs.org/api/getting-started.html)
 
 ## Install
 ```
-npm i @fastify/pug
+npm i @isekaimaouyoki-sama/fastify-pug
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ const path = require('path')
 const fastify = require('fastify')()
 
 fastify.register(
-  require('@fastify/pug'),
+  require('@isekaimaouyoki-sama/fastify-pug'),
   { 
     // root directory for view
     rootDir: path.join(__dirname, "views")
